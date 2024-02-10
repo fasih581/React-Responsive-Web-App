@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.nav h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* media queries  */
+@media screen and (max-width: 768px) {
+  .head {
+    display: none !important;
+  }
+}

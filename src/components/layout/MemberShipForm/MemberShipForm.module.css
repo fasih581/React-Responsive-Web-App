@@ -1,0 +1,171 @@
+.memberShipPage {
+  max-width: 1450px;
+  margin: 0 auto;
+  height: 92vh;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 1000px;
+}
+
+.backHome a {
+  display: flex;
+  margin-top: 160px;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: #61baf5;
+}
+
+.formBox h1 {
+  color: #61baf5;
+  font-size: 40px;
+}
+
+.inputBox {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.inputform {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Input {
+  font-size: 14px;
+  letter-spacing: 0.01rem;
+  background: #ffffff;
+  border: 1px solid #cacaca;
+  border-radius: 20px;
+  line-height: 25px;
+  height: 35px;
+  width: 300px;
+  display: flex;
+  padding-left: 10px;
+}
+button.btn:hover,
+button.btn {
+  width: 300px;
+  background: #61baf5;
+  border-radius: 20px;
+}
+.inputBox p {
+  color: #898989;
+  font-size: 14px;
+}
+
+.errorMessage {
+  color: red;
+}
+
+/* image */
+.img {
+  width: 1600px;
+}
+
+/* media queries  */
+@media screen and (max-width: 1650px) {
+  .memberShipPage {
+    max-width: 1250px;
+  }
+
+  .img {
+    width: 1400px;
+  }
+  .backHome a {
+    margin: 100px 0 60px 0;
+  }
+  .formBox {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .memberShipPage {
+    max-width: 1000px;
+  }
+
+  .img {
+    width: 1600px;
+  }
+
+  .formBox {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .memberShipPage {
+    max-width: 800px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .formBox {
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputBox {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .memberShipPage {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .memberShipPage {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .memberShipPage {
+    max-width: 400px;
+  }
+
+  .form {
+    width: 300px;
+  }
+
+  .react-tel-input2 {
+    width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .memberShipPage {
+    max-width: 300px;
+  }
+
+  .formBox h1 {
+    color: #61baf5;
+    font-size: 22px;
+  }
+
+  .formBox {
+    width: 300px;
+  }
+
+  .inputBox p {
+    font-size: 10px;
+  }
+}

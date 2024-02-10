@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+.head h3 {
+  font-size: 20px;
+  margin-right: 560px !important;
+  font-weight: 500;
+  margin: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* Nevbar side Menu */
+
+.nav {
+  background: #fff;
+  height: 100vh;
+  width: 300px;
+  border-right: 1px solid #898989;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  position: fixed;
+}
+
+.navBody {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0 0 25px;
+  font-size: 20px;
+}
+
+.navMenu {
+  display: none;
+}
+
+.navMenu button {
+  font-size: 40px;
+}
+
+.navCls {
+  text-align: end;
+  margin: 17px 12px 0 0;
+}
+
+.navCls button {
+  height: 35px;
+  color: black;
+  font-size: 20px;
+  border-color: black;
+}
+
+/* media queries  */
+@media screen and (max-width: 1440px) {
+  .head h3 {
+    margin-right: 420px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .head h3 {
+    margin-right: 300px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head {
+    justify-content: flex-start;
+    gap: 0px !important;
+  }
+  .head h3 {
+    margin-right: 0 !important;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  .navMenu {
+    display: block !important;
+    margin: 14px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .head {
+    justify-content: flex-start;
+    gap: 5px;
+    height: 50px;
+  }
+  .head h3 {
+    font-size: 17px;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .nav {
+    width: 200px !important;
+  }
+}
